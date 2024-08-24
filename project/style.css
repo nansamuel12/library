@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.logincol{
+    text-align: center;
+    background: right;
+    width: 800px;
+    height: 500px;
+    background-color:#63cff0fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  150px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 300px;
+   
+    
+    
+    
+
+}
+.bgr{
+    background-image: url(Asset/background.jpg);
+}
+.logoimg{
+    align-items: center;
+    width: 280px;
+    height: auto;
+
+}
+.nextwhi{
+    position: relative;
+    left: 110px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.2);
+}
+.logback{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color:rgb(77, 197, 241);
+    margin-left: 160px;
+    margin-top: 70px;
+}
+.iconlog{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    margin-top: 10px;
+}
+.logtxt{
+    font-family:'Roboto';
+    text-align: center;
+    margin-left: -2px;
+    margin-right: -4px;
+    margin-top: -10px;
+    font-size: 45px;
+    
+}
+.line{
+    color: rgb(77, 197, 241);
+    width: 20%;
+    border: 3px solid;
+    margin-top: -26px;
+    border-radius: 20px;
+}
+.inputes{
+    font-family: 'Roboto';
+    font-style:initial;
+    font-size: larger;
+    font-weight:bold;
+    margin-top:35px;
+}
+.logbtn{
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: initial;
+    font-weight: lighter;
+    font-size: medium;
+    background-color:rgb(77, 197, 241);
+    width: 245px;
+    height: 30px;
+    border: 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+ 
+
+    
+}
+.btnsz{
+    margin-top: -10px;
+    font-family: 'Roboto';
+    margin-top: -6px;
+}
+.adminpage{
+   margin-top: 70px;
+   margin-left: 500px;
+    width: 450px;
+    height: 600px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(10, 10, 10, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.admtxt{
+    font-family: 'Roboto';
+    text-align: center;
+    margin-bottom: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    
+   
+
+}
+.formadm{
+    font-family: 'Roboto';
+    font-style:initial;
+    font-size: larger;
+    font-weight:bold;
+    margin-top:35px;
+}
+.adminputes{
+    font-family: 'Roboto';
+    font-style:initial;
+    font-size: larger;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:-455px;
+    
+    
+
+    
+
+}
+.adminputes label {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #999;
+    width: 250px;
+    height: 30px;
+
+
+  }
+
+.admbtn{
+    width: 250px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(77, 197, 241);
+    border: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+p .linksignup{
+     
+    color: rgb(77, 197, 241);
+        text-decoration: underline;
+        cursor: pointer;
+        list-style: none;
+        text-decoration:none ;
+        font-size: medium;
+        padding: 10px;
+      
+}
+ 
+/*signup*/
+.logincolsign{
+    text-align: center;
+    background: right;
+    width: 800px;
+    height: 600px;
+    background-color:#63cff0fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  150px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 300px;
+}
+
+
+.nextwhisignup{
+    position: relative;
+    left: 100px;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.2);
+} 
+.inputsign{
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: -2px;
+    margin-top: 20px;
+    font-size: 1.5rem; 
+}
+label .inputsign{
+    display: flex;
+    margin-bottom: 2px;
+    font-size: 2rem;
+    color: #999;
+    width: 25px;
+    height: 30px;
+    padding: 1px;
+}
+.signtxt{
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+.logbtnsign{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: initial;
+    font-weight: lighter;
+    font-size: medium;
+    background-color:rgb(77, 197, 241);
+    width: 260px;
+    height: 30px;
+    border: 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+  
+}
+.linesign{
+    color: #63cff0fb;
+    width: 58px;
+    border: 3.5px solid;
+    margin-top: -21px;
+    border-radius: 20px;
+    margin-left: 182px;
+}
+
+
+.headertb{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #F6FBF4;
+
+}
+.logotebl{
+    width: 120px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+.notfition{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-left: 1100px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+.accountsign{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-size: cover;
+    background-color: rgb(173, 162, 162);
+    border-radius: 50%;
+    overflow: hidden;
+
+
+}
+.accountsign img{
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+}
+.fname{
+    margin-left: 1450px;
+    margin-top: -60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.headertb .usernam{
+    margin-left: 1475px;
+    margin-top: -10px;
+    font-family: 'Roboto'
+    
+}
+.tblist{
+    width: 400px;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: aqua;
+
+
+}
+.tablelist{
+    width: 250px;
+    height: 100vh;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffe2;
+}
+
+.tablebody{
+    background-color: #F6FBF4;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+.textlink{
+    text-decoration: none;
+    color: #2fc8f7fb ;
+    font-family: 'Roboto';
+    font-size: larger;
+   
+}
+.search{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #e7e2e2;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Roboto';
+ 
+}
+.searchtb{
+    width: 20px;
+    height: 20px;
+    align-self: flex-start;
+    margin-left: -70px;
+    margin-top: -3px;
+    align-self: first baseline;
+}
+.listtb{
+    display: flex;
+    flex-flow: column;
+    font-family: 'Roboto';
+    margin: 4px;
+    padding: 3px;
+    gap: 4px;
+    margin-left: 50px;
+}
+.coladm{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logset{
+    padding: 3px;
+    gap: 4px;
+    margin-left: 50px;
+    font-family: 'Roboto';
+    align-self: flex-end;
+    margin-top: 255px;
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    background-color: #393E46;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: lighter;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    
+}
